@@ -9,7 +9,6 @@ import {
 } from "./definitions";
 import { formatCurrency } from "./utils";
 
-
 export async function fetchRevenue() {
   try {
     const data = await sql<Revenue>`SELECT * FROM revenue`;
